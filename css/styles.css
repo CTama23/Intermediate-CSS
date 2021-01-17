@@ -1,0 +1,250 @@
+/*
+Downloaded fonts:
+
+name:
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Lobster', cursive;  --------Chosed---------
+font-family: 'Sacramento', cursive;
+
+description:
+font-family: 'Montserrat', sans-serif; ----------Chosed-----------
+font-family: 'Playfair Display', serif;
+font-family: 'Rufina', serif;
+
+paragraphs:
+Adobe Garamond Pro Regular
+font-family: adobe-garamond-pro, serif;
+*/
+
+
+body {
+  margin: 0;
+  text-align: center;
+  color: rgb(84, 84, 84);
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:link {
+  color: #45b29a;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:visited {
+  color: #45b29a;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #1e836c;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:active {
+  color: #1e836c;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+hr {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-style: dotted;
+  border-top-width: 6px;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-color: rgb(233, 234, 231);
+  width: 5%;
+}
+
+h2 {
+  color: #1e836c;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+h3 {
+  color: #45b29a;
+  font-size: 25px;
+}
+
+/***********************************CLASSES*******************************/
+.header-container {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(224, 235, 232);
+  position: fixed;
+  z-index: 999;
+}
+
+.profile-head {
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  left: 15%;
+  top: 12.5px;
+}
+
+.ul-header {
+  position: absolute;
+  right: 15%;
+  top: 23px;
+}
+
+.li-header {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.top-container {
+  background-color: rgb(224, 235, 232);
+  padding-top: 209px;
+}
+
+.top-h1 {
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  color: rgb(74, 177, 154);
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+  color: #45b29a;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 159px;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 350px;
+  top: 285px;
+}
+
+.mid-container {
+  background-color: #fff;
+  padding-top: 75px;
+}
+
+.mid-p {
+  font-family: adobe-garamond-pro, serif;
+  font-size: 20px;
+  line-height: 1.43;
+}
+
+.intro {
+  margin: 0 auto;
+}
+
+.profilepic {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.img-m {
+  width: 25%;
+}
+
+.img-design {
+  float: left;
+  margin-right: 30px;
+}
+
+.img-develop {
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-text {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.button-contact {
+  border-radius: 5px;
+  font-family: Helvetica;
+  padding: .75em 1.5em .75em 1.5em;
+  margin: 1.5em 0 0;
+  background-color: #45B29A;
+  border: solid #45B29A 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-contact:hover {
+  background: #3ea08b;
+  border: solid #1E836C 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.email-img {
+  display: inline-block;
+}
+
+.button-text {
+  display: inline-block;
+  font-size: 20px;
+  color: #1a7e68;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.bot-container {
+  margin-top: 100px;
+  height: 180px;
+  background-color: #c5ded7;
+  position: relative;
+}
+
+.ul-footer {
+  position: relative;
+  top: 20px;
+  padding: 0;
+  list-style-type: none;
+  margin-left: -16px;
+}
+
+.li-footer {
+  display: inline-block;
+}
+
+.bot-anchors {
+  margin-left: 2em;
+}
+
+.icons-text {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.icons-made {
+  margin-top: 30px;
+}
+
+.bottom-p {
+  margin: 0;
+  color: #45b29a;
+}
+
+/************************************IDS**********************************/
